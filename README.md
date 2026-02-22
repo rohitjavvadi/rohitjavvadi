@@ -1,17 +1,13 @@
-### oh, you actually clicked through from the site. respect.
+### you're still here? the portfolio wasn't enough?
 
-I'm **Rohit Javvadi** — AI Engineer at [Veltris](https://veltris.com), professional vibecoder, and an incredibly productive copy-paster of Stack Overflow answers that no longer exist.
+fine. I'm **Rohit** — I mass produce mass produced code at [Veltris](https://veltris.com) and call it "AI Engineering."
 
-I build things with LLMs, deep learning, and an mass amounts of mass produced code. Most of my repos here are either half-finished experiments or things I forgot I made. You're welcome to explore, but I take no responsibility for what you find.
+I ship fast, break things, and blame the model.
 
-```
-current status: mass producing mass produced code
-location:       hyderabad, mass production factory
-tools:          claude, cursor, coffee, ctrl+c ctrl+v
-```
-
-**previously vibecoded at:**  NUS Singapore &middot; Mahindra University
+most repos here are either WIP or evidence of crimes against clean code. proceed at your own risk.
 
 ---
 
-if you haven't already — [rohit.javvadi.in](https://rohit.javvadi.in)
+[rohit.javvadi.in](https://rohit.javvadi.in) ← the polished version of me
+
+<sub>readme written by claude opus 4.6 because even this was vibecoded</sub>
