@@ -1,6 +1,6 @@
 ### you're still here? the portfolio wasn't enough?
 
-fine. I'm **Rohit** — I mass produce mass produced code at [Veltris](https://veltris.com) and call it "AI Engineering."
+fine. I'm **Rohit** — I mass produce mass produced code and call it "AI Engineering."
 
 I ship fast, break things, and blame the model.
 
