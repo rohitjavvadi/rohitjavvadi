@@ -30,11 +30,15 @@ that can quietly block users.
 
 ### Recent open source work
 
-- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): contributed a
-  merged fix for atomic cross-process review feature locking
-  ([PR #13](https://github.com/openclaw/clawpatch/pull/13)) and a merged fix so
-  `clawpatch fix` runs feature-aware validation instead of skipping important
-  feature-specific checks ([PR #24](https://github.com/openclaw/clawpatch/pull/24)).
+- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): contributed
+  merged fixes for atomic cross-process review feature locking
+  ([PR #13](https://github.com/openclaw/clawpatch/pull/13)), feature-aware
+  validation during `clawpatch fix`
+  ([PR #24](https://github.com/openclaw/clawpatch/pull/24)), and Node server
+  route mapping for Express, Fastify, and Hono
+  ([PR #47](https://github.com/openclaw/clawpatch/pull/47)). Also opened a
+  follow-up PR for aliased Express router detection
+  ([PR #52](https://github.com/openclaw/clawpatch/pull/52)).
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): reported and
   patched Host header hardening for the local `codexbar serve` command; the
   maintainer landed the fix directly on `main`.
