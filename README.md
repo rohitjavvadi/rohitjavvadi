@@ -46,4 +46,4 @@ maintainers can trust.
 
 - Portfolio: [rohit.javvadi.in](https://rohit.javvadi.in)
 - GitHub: [@rohitjavvadi](https://github.com/rohitjavvadi)
-- X: [![X](https://img.shields.io/badge/@rohitj997-000000?style=flat&logo=x&logoColor=white)](https://x.com/rohitj997)
+- X: [@rohitj997](https://x.com/rohitj997)
