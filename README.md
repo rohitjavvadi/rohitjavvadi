@@ -1,20 +1,32 @@
 ## Hi, I'm Rohit
 
-I build, test, and ship software with AI agents as part of my daily engineering
-workflow. Lately I have been focused on open source contributions, security
-review, provider workflows, and practical tooling around Codex.
+I build macOS apps, developer tools, and practical automation projects. Recently
+I have been focused on open source work around clipboard utilities, code review
+tooling, security review, and CLI workflows.
 
 I like finding the kind of bugs that actually matter: broken runtime behavior,
 unsafe edge cases, cross-platform failures, missing validation, and state issues
 that can quietly block users.
 
-### What I am working on
+### Projects
 
-- Open source bug hunting and focused PRs
-- Codex-based development workflows
-- Claude Review for Codex for second-pass review and edge-case validation
-- Security and robustness reviews before shipping fixes
-- TypeScript, Swift, CLI tooling, provider integrations, and automation
+- [`ClipLy`](https://github.com/rohitjavvadi/ClipLy): a lightweight macOS
+  clipboard history app for text, images, and files, with a menu bar workflow,
+  Spotlight-style launcher, local SQLite-backed storage, configurable retention,
+  and no analytics.
+- [`homebrew-cliply`](https://github.com/rohitjavvadi/homebrew-cliply): the
+  Homebrew tap for installing ClipLy with `brew install --cask cliply`.
+- [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex):
+  a local Codex plugin that lets Claude Code perform read-only reviews while
+  keeping Codex as the only writer and fixer.
+
+### Focus Areas
+
+- macOS apps and menu bar utilities
+- CLI tooling and developer workflows
+- Code review automation
+- Security, robustness, and edge-case testing
+- TypeScript, Swift, JavaScript, and Python
 
 ### Recent open source work
 
@@ -24,13 +36,6 @@ that can quietly block users.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): reported and
   patched Host header hardening for the local `codexbar serve` command; the
   maintainer landed the fix directly on `main`.
-
-### How I work
-
-I use Codex to inspect codebases, reproduce issues, write focused fixes, and run
-tests. I use Claude Review for Codex as an adversarial reviewer when a change
-needs another pass for security, data loss, race conditions, or weird edge
-cases.
 
 The goal is simple: small PRs, real impact, clear evidence, and fixes that
 maintainers can trust.
