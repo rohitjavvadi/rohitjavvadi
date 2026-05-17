@@ -1,13 +1,41 @@
-### you're still here? the portfolio wasn't enough?
+## Hi, I'm Rohit
 
-fine. I'm **Rohit** — I mass produce mass produced code and call it "AI Engineering."
+I build, test, and ship software with AI agents as part of my daily engineering
+workflow. Lately I have been focused on open source contributions, security
+review, provider workflows, and practical tooling around Codex.
 
-I ship fast, break things, and blame the model.
+I like finding the kind of bugs that actually matter: broken runtime behavior,
+unsafe edge cases, cross-platform failures, missing validation, and state issues
+that can quietly block users.
 
-most repos here are either WIP or evidence of crimes against clean code. proceed at your own risk.
+### What I am working on
 
----
+- Open source bug hunting and focused PRs
+- Codex-based development workflows
+- Claude Review for Codex for second-pass review and edge-case validation
+- Security and robustness reviews before shipping fixes
+- TypeScript, Swift, CLI tooling, provider integrations, and automation
 
-[rohit.javvadi.in](https://rohit.javvadi.in) ← the polished version of me
+### Recent open source work
 
-<sub>readme written by claude opus 4.6 because even this was vibecoded</sub>
+- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): contributed a
+  merged fix so `clawpatch fix` runs feature-aware validation instead of
+  skipping important feature-specific checks.
+- [`steipete/CodexBar`](https://github.com/steipete/CodexBar): reported and
+  patched Host header hardening for the local `codexbar serve` command; the
+  maintainer landed the fix directly on `main`.
+
+### How I work
+
+I use Codex to inspect codebases, reproduce issues, write focused fixes, and run
+tests. I use Claude Review for Codex as an adversarial reviewer when a change
+needs another pass for security, data loss, race conditions, or weird edge
+cases.
+
+The goal is simple: small PRs, real impact, clear evidence, and fixes that
+maintainers can trust.
+
+### Links
+
+- Portfolio: [rohit.javvadi.in](https://rohit.javvadi.in)
+- GitHub: [@rohitjavvadi](https://github.com/rohitjavvadi)
