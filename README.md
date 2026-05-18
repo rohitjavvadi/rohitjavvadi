@@ -37,8 +37,12 @@ that can quietly block users.
     feature-aware validation during `clawpatch fix`.
   - Merged [PR #47](https://github.com/openclaw/clawpatch/pull/47): Node
     server route mapping for Express, Fastify, and Hono.
-  - Opened [PR #52](https://github.com/openclaw/clawpatch/pull/52): aliased
+  - Merged [PR #52](https://github.com/openclaw/clawpatch/pull/52): aliased
     Express router detection.
+  - Merged [PR #54](https://github.com/openclaw/clawpatch/pull/54): Django
+    route mapping.
+  - Opened [PR #70](https://github.com/openclaw/clawpatch/pull/70): Express
+    Router imports after block comment banners.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): reported and
   patched Host header hardening for the local `codexbar serve` command; the
   maintainer landed the fix directly on `main`.
