@@ -41,11 +41,21 @@ that can quietly block users.
     Express router detection.
   - Merged [PR #54](https://github.com/openclaw/clawpatch/pull/54): Django
     route mapping.
-  - Opened [PR #70](https://github.com/openclaw/clawpatch/pull/70): Express
+  - Merged [PR #70](https://github.com/openclaw/clawpatch/pull/70): Express
     Router imports after block comment banners.
-- [`steipete/CodexBar`](https://github.com/steipete/CodexBar): reported and
-  patched Host header hardening for the local `codexbar serve` command; the
-  maintainer landed the fix directly on `main`.
+  - Merged [PR #72](https://github.com/openclaw/clawpatch/pull/72): improved
+    malformed JSON diagnostics for the opencode provider.
+  - Merged [PR #77](https://github.com/openclaw/clawpatch/pull/77): Fastify
+    plugin callback route mapping.
+  - Merged [PR #78](https://github.com/openclaw/clawpatch/pull/78): Fastify
+    method array support.
+  - Merged [PR #79](https://github.com/openclaw/clawpatch/pull/79): Laravel
+    group prefix mapping.
+- [`steipete/CodexBar`](https://github.com/steipete/CodexBar):
+  - Merged [PR #1022](https://github.com/steipete/CodexBar/pull/1022): fixed
+    LLM Proxy fractional reset times.
+  - Merged [PR #1030](https://github.com/steipete/CodexBar/pull/1030):
+    clarified missing CLI guidance.
 
 The goal is simple: small PRs, real impact, clear evidence, and fixes that
 maintainers can trust.
