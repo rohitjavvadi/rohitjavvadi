@@ -6,8 +6,8 @@ Recently I have been contributing to the OpenClaw/Codex ecosystem, especially co
 
 ## Open Source Signal
 
-- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 10 merged PRs and 4 active PRs under review.
-  Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django and Laravel route mapping, provider diagnostics, and evidence-stability fixes.
+- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 16 merged PRs.
+  Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, provider diagnostics, and evidence-stability fixes.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): 3 merged PRs.
   Fixed LLM Proxy reset-time handling, removed obsolete peak-hour UI, and improved missing CLI guidance.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer.
@@ -29,8 +29,12 @@ Recently I have been contributing to the OpenClaw/Codex ecosystem, especially co
 - [#77](https://github.com/openclaw/clawpatch/pull/77): mapped Fastify plugin callback routes.
 - [#78](https://github.com/openclaw/clawpatch/pull/78): supported Fastify method arrays.
 - [#79](https://github.com/openclaw/clawpatch/pull/79): mapped Laravel group prefixes.
-
-Active PRs: [#97](https://github.com/openclaw/clawpatch/pull/97), [#98](https://github.com/openclaw/clawpatch/pull/98), [#99](https://github.com/openclaw/clawpatch/pull/99), [#100](https://github.com/openclaw/clawpatch/pull/100).
+- [#97](https://github.com/openclaw/clawpatch/pull/97): stabilized fallback finding evidence signatures.
+- [#98](https://github.com/openclaw/clawpatch/pull/98): preserved Node mounted route prefixes.
+- [#99](https://github.com/openclaw/clawpatch/pull/99): classified stdout-only provider failures.
+- [#100](https://github.com/openclaw/clawpatch/pull/100): mapped Flask blueprint prefixes.
+- [#102](https://github.com/openclaw/clawpatch/pull/102): mapped literal Rails routes.
+- [#103](https://github.com/openclaw/clawpatch/pull/103): preserved Django include route prefixes.
 
 ### `steipete/CodexBar`
 
