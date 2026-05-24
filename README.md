@@ -2,12 +2,14 @@
 
 I build developer tools, macOS utilities, and agentic coding workflows.
 
-Recently I have been contributing to the OpenClaw/Codex ecosystem, especially code review automation, route mapping, validation, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
+Recently I have been contributing to OpenClaw and adjacent developer tooling, especially browser automation reliability, code review automation, route mapping, validation, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
 
 ## Open Source Signal
 
 - [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 16 merged PRs.
   Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, provider diagnostics, and evidence-stability fixes.
+- [`openclaw/openclaw`](https://github.com/openclaw/openclaw): 2 merged PRs.
+  Fixed Memory Palace report-card navigation and disabled the Chrome DevTools MCP telemetry watchdog by default in browser automation.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): 3 merged PRs.
   Fixed LLM Proxy reset-time handling, removed obsolete peak-hour UI, and improved missing CLI guidance.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer.
@@ -16,6 +18,11 @@ Recently I have been contributing to the OpenClaw/Codex ecosystem, especially co
   A lightweight macOS clipboard history app for text, images, and files with local SQLite storage, configurable retention, and a Homebrew cask.
 
 ## Selected Contributions
+
+### `openclaw/openclaw`
+
+- [#85144](https://github.com/openclaw/openclaw/pull/85144): opened Memory Palace report cards through the existing wiki preview flow.
+- [#85886](https://github.com/openclaw/openclaw/pull/85886): disabled Chrome DevTools MCP telemetry watchdog processes by default.
 
 ### `openclaw/clawpatch`
 
@@ -54,5 +61,6 @@ Recently I have been contributing to the OpenClaw/Codex ecosystem, especially co
 ## Links
 
 - Portfolio: [rohit.javvadi.in](https://rohit.javvadi.in)
+- Email: [rohit@javvadi.in](mailto:rohit@javvadi.in)
 - GitHub: [@rohitjavvadi](https://github.com/rohitjavvadi)
 - X: [@rohitj997](https://x.com/rohitj997)
