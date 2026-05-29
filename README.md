@@ -2,14 +2,15 @@
 
 I build developer tools, macOS utilities, and agentic coding workflows.
 
-Recently I have been contributing to OpenClaw and adjacent developer tooling, especially model-auth status, browser automation reliability, code review automation, route mapping, validation, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
+Recently I have been contributing to OpenClaw and adjacent developer tooling, especially plugin install compatibility, model-auth status, browser automation reliability, code review automation, route mapping, Python runtime prompt metadata, validation, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
 
 ## Open Source Signal
 
-- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 16 merged PRs.
-  Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, provider diagnostics, and evidence-stability fixes.
-- [`openclaw/openclaw`](https://github.com/openclaw/openclaw): 3 merged PRs.
-  Fixed model-auth status output, Memory Palace report-card navigation, and Chrome DevTools MCP telemetry watchdog behavior.
+- **OpenClaw contributor:** 21 merged OpenClaw ecosystem PRs across [`openclaw/openclaw`](https://github.com/openclaw/openclaw) and [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch).
+- [`openclaw/openclaw`](https://github.com/openclaw/openclaw): 4 merged PRs.
+  Fixed plugin API install compatibility checks, model-auth status output, Memory Palace report-card navigation, and Chrome DevTools MCP telemetry watchdog behavior.
+- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 17 merged PRs.
+  Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, Python runtime syntax metadata, provider diagnostics, and evidence-stability fixes.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): 3 merged PRs.
   Fixed LLM Proxy reset-time handling, removed obsolete peak-hour UI, and improved missing CLI guidance.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer.
@@ -21,12 +22,14 @@ Recently I have been contributing to OpenClaw and adjacent developer tooling, es
 
 ### `openclaw/openclaw`
 
+- [#87477](https://github.com/openclaw/openclaw/pull/87477): rejected incompatible package plugin API installs early.
 - [#86378](https://github.com/openclaw/openclaw/pull/86378): showed OAuth delegation markers correctly in `models status`.
 - [#85144](https://github.com/openclaw/openclaw/pull/85144): opened Memory Palace report cards through the existing wiki preview flow.
 - [#85886](https://github.com/openclaw/openclaw/pull/85886): disabled Chrome DevTools MCP telemetry watchdog processes by default.
 
 ### `openclaw/clawpatch`
 
+- [#109](https://github.com/openclaw/clawpatch/pull/109): respected Python runtime syntax metadata in prompts.
 - [#13](https://github.com/openclaw/clawpatch/pull/13): made review feature locks atomic.
 - [#24](https://github.com/openclaw/clawpatch/pull/24): added feature validation during fixes.
 - [#47](https://github.com/openclaw/clawpatch/pull/47): added Node server route mapping for Express, Fastify, and Hono.
