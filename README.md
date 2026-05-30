@@ -1,22 +1,24 @@
 # Rohit Javvadi
 
-I build developer tools, macOS utilities, and agentic coding workflows.
+AI engineer building developer tools, macOS utilities, and agentic coding workflows.
 
-Recently I have been contributing to OpenClaw and adjacent developer tooling, especially plugin install compatibility, model-auth status, browser automation reliability, code review automation, route mapping, Python runtime prompt metadata, validation, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
+Recently I have been contributing to OpenClaw and adjacent developer tooling, especially validation command safety, plugin install compatibility, model-auth status, browser automation reliability, code review automation, route mapping, Python runtime prompt metadata, provider diagnostics, and small reliability fixes that maintainers can merge quickly.
 
 ## Open Source Signal
 
-- **OpenClaw contributor:** 21 merged OpenClaw ecosystem PRs across [`openclaw/openclaw`](https://github.com/openclaw/openclaw) and [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch).
+- **OpenClaw contributor:** 22 merged OpenClaw ecosystem PRs across [`openclaw/openclaw`](https://github.com/openclaw/openclaw) and [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch).
 - [`openclaw/openclaw`](https://github.com/openclaw/openclaw): 4 merged PRs.
   Fixed plugin API install compatibility checks, model-auth status output, Memory Palace report-card navigation, and Chrome DevTools MCP telemetry watchdog behavior.
-- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 17 merged PRs.
-  Contributions include atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, Python runtime syntax metadata, provider diagnostics, and evidence-stability fixes.
+- [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch): 18 merged PRs.
+  Contributions include validation command argument quoting, atomic review locking, feature-aware validation, Node/Express/Fastify/Hono route mapping, Django, Flask, Rails, and Laravel route mapping, Python runtime syntax metadata, provider diagnostics, and evidence-stability fixes.
 - [`steipete/CodexBar`](https://github.com/steipete/CodexBar): 3 merged PRs.
   Fixed LLM Proxy reset-time handling, removed obsolete peak-hour UI, and improved missing CLI guidance.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer.
   A local Codex plugin where Claude Code performs read-only reviews while Codex remains the only writer and fixer.
 - [`ClipLy`](https://github.com/rohitjavvadi/ClipLy): creator.
   A lightweight macOS clipboard history app for text, images, and files with local SQLite storage, configurable retention, and a Homebrew cask.
+- [`QuickTranscript`](https://github.com/rohitjavvadi/quicktranscript): creator.
+  A macOS menu bar app for recording meeting audio and transcribing it locally with MLX Whisper.
 
 ## Selected Contributions
 
@@ -29,6 +31,7 @@ Recently I have been contributing to OpenClaw and adjacent developer tooling, es
 
 ### `openclaw/clawpatch`
 
+- [#111](https://github.com/openclaw/clawpatch/pull/111): quoted mapper-generated validation command arguments.
 - [#109](https://github.com/openclaw/clawpatch/pull/109): respected Python runtime syntax metadata in prompts.
 - [#13](https://github.com/openclaw/clawpatch/pull/13): made review feature locks atomic.
 - [#24](https://github.com/openclaw/clawpatch/pull/24): added feature validation during fixes.
@@ -64,7 +67,7 @@ Recently I have been contributing to OpenClaw and adjacent developer tooling, es
 
 ## Links
 
-- Portfolio: [rohit.javvadi.in](https://rohit.javvadi.in)
+- Portfolio: [rohitjavvadi.ai](https://rohitjavvadi.ai)
 - Email: [rohit@javvadi.in](mailto:rohit@javvadi.in)
 - GitHub: [@rohitjavvadi](https://github.com/rohitjavvadi)
 - X: [@rohitj997](https://x.com/rohitj997)
