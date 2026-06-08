@@ -2,6 +2,8 @@
 
 AI engineer building Codex workflows, developer tools, browser automation reliability, macOS utilities, and practical AI systems.
 
+Creator of [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex), a local Codex plugin that gives Codex a read-only Claude Code reviewer and an opt-in disposable-worktree implementation flow while Codex stays the writer, tester, reviewer, and merge gate.
+
 I work close to agentic coding tools: browser MCP runtime behavior, PR review automation, OpenAI API demos, route mapping, provider diagnostics, validation safety, and developer workflows that turn rough ideas into working software.
 
 ## Current Signal
@@ -11,6 +13,7 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 - **5 merged PRs in `openclaw/openclaw`**, including Chrome MCP browser-session lifecycle fixes, plugin install compatibility, model-auth status, Memory Palace report-card navigation, and telemetry watchdog behavior.
 - **18 merged PRs in `openclaw/clawpatch`**, including validation command quoting, route mapping, Python runtime prompt metadata, provider diagnostics, review locking, validation, and evidence stability.
 - **3 merged PRs in `steipete/CodexBar`**, covering LLM Proxy reset-time handling, missing CLI guidance, and stale UI cleanup.
+- [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer of a Codex plugin for read-only Claude Code reviews and supervised disposable-worktree implementation.
 
 ## Recent Open Source Work
 
@@ -31,8 +34,8 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 
 ## Projects
 
+- [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): Codex plugin where Claude Code performs read-only reviews while Codex remains the writer/fixer, with supervised implementation in disposable worktrees.
 - [`WorkTape`](https://worktape.javvadi.in/): OpenAI x Outskill MVP that turns workflow screen recordings into structured software specs and internal tools using Codex and the OpenAI Responses API.
-- [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): Codex plugin where Claude Code performs read-only reviews while Codex remains the writer/fixer.
 - [`ClipLy`](https://github.com/rohitjavvadi/ClipLy): lightweight macOS clipboard history app with local SQLite storage and Homebrew install support.
 - [`QuickTranscript`](https://github.com/rohitjavvadi/quicktranscript): macOS menu bar app for local meeting transcription with MLX Whisper.
 
