@@ -8,17 +8,21 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 
 ## Current Signal
 
-- **26 merged PRs** across OpenClaw, openclaw/clawpatch, and steipete/CodexBar.
-- **23 merged OpenClaw ecosystem PRs** across `openclaw/openclaw` and `openclaw/clawpatch`.
-- **5 merged PRs in `openclaw/openclaw`**, including Chrome MCP browser-session lifecycle fixes, plugin install compatibility, model-auth status, Memory Palace report-card navigation, and telemetry watchdog behavior.
+- **30 merged PRs** across OpenClaw, openclaw/clawpatch, and steipete/CodexBar.
+- **26 merged OpenClaw ecosystem PRs** across `openclaw/openclaw` and `openclaw/clawpatch`.
+- Recent contributions landed in public developer-tooling repos including `openclaw/openclaw` with 378k+ stars, `steipete/CodexBar` with 14k+ stars, and `openclaw/clawpatch`.
+- **8 merged PRs in `openclaw/openclaw`**, including CLI numeric-option validation, SecretRef profile auth handling, Chrome MCP browser-session lifecycle fixes, plugin install compatibility, model-auth status, Memory Palace report-card navigation, and telemetry watchdog behavior.
 - **18 merged PRs in `openclaw/clawpatch`**, including validation command quoting, route mapping, Python runtime prompt metadata, provider diagnostics, review locking, validation, and evidence stability.
-- **3 merged PRs in `steipete/CodexBar`**, covering LLM Proxy reset-time handling, missing CLI guidance, and stale UI cleanup.
+- **4 merged PRs in `steipete/CodexBar`**, covering OpenAI Admin usage pagination, LLM Proxy reset-time handling, missing CLI guidance, and stale UI cleanup.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer of a Codex plugin for read-only Claude Code reviews and supervised disposable-worktree implementation.
 
 ## Recent Open Source Work
 
 ### `openclaw/openclaw`
 
+- [#92490](https://github.com/openclaw/openclaw/pull/92490): validated CLI numeric options so invalid canvas inputs fail clearly before runtime work begins.
+- [#92483](https://github.com/openclaw/openclaw/pull/92483): validated CLI numeric option ranges for matrix commands.
+- [#90686](https://github.com/openclaw/openclaw/pull/90686): honored profile auth for SecretRef model entries.
 - [#88305](https://github.com/openclaw/openclaw/pull/88305): isolated Chrome MCP pending attach aborts so one cancelled caller does not fail unrelated callers sharing the same browser session attach.
 - [#87477](https://github.com/openclaw/openclaw/pull/87477): rejected incompatible package plugin API installs early.
 - [#86378](https://github.com/openclaw/openclaw/pull/86378): showed OAuth delegation markers correctly in `models status`.
@@ -31,6 +35,13 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 - [#109](https://github.com/openclaw/clawpatch/pull/109): respected Python runtime syntax metadata in prompts.
 - Route mapping work across Node, Express, Fastify, Hono, Django, Flask, Rails, and Laravel.
 - Provider diagnostics, atomic review locks, feature validation, and evidence-stability fixes.
+
+### `steipete/CodexBar`
+
+- [#1465](https://github.com/steipete/CodexBar/pull/1465): fixed OpenAI Admin usage pagination.
+- [#1030](https://github.com/steipete/CodexBar/pull/1030): clarified missing CLI guidance.
+- [#1025](https://github.com/steipete/CodexBar/pull/1025): removed obsolete peak-hours UI.
+- [#1022](https://github.com/steipete/CodexBar/pull/1022): fixed LLM Proxy fractional reset times.
 
 ## Projects
 
