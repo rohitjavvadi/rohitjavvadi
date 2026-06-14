@@ -16,6 +16,14 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 - **4 merged PRs in `steipete/CodexBar`**, covering OpenAI Admin usage pagination, LLM Proxy reset-time handling, missing CLI guidance, and stale UI cleanup.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer of a Codex plugin for read-only Claude Code reviews and supervised disposable-worktree implementation.
 
+I contribute to developer-tooling repos used by large builder communities:
+
+| Upstream | Scale | My merged work |
+| --- | --- | --- |
+| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | ![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/openclaw/openclaw?style=flat&label=forks) | 8 PRs: CLI validation, SecretRef auth, Chrome MCP lifecycle |
+| [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch) | ![stars](https://img.shields.io/github/stars/openclaw/clawpatch?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/openclaw/clawpatch?style=flat&label=forks) | 18 PRs: route mapping, validation safety, provider diagnostics |
+| [`steipete/CodexBar`](https://github.com/steipete/CodexBar) | ![stars](https://img.shields.io/github/stars/steipete/CodexBar?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/steipete/CodexBar?style=flat&label=forks) | 4 PRs: OpenAI Admin pagination, CLI guidance, usage UI |
+
 ## Recent Open Source Work
 
 ### `openclaw/openclaw`
