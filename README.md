@@ -8,10 +8,10 @@ I work close to agentic coding tools: browser MCP runtime behavior, PR review au
 
 ## Current Signal
 
-- **30 merged PRs** across OpenClaw, openclaw/clawpatch, and steipete/CodexBar.
-- **26 merged OpenClaw ecosystem PRs** across `openclaw/openclaw` and `openclaw/clawpatch`.
-- Recent contributions landed in public developer-tooling repos including `openclaw/openclaw` with 378k+ stars, `steipete/CodexBar` with 14k+ stars, and `openclaw/clawpatch`.
-- **8 merged PRs in `openclaw/openclaw`**, including CLI numeric-option validation, SecretRef profile auth handling, Chrome MCP browser-session lifecycle fixes, plugin install compatibility, model-auth status, Memory Palace report-card navigation, and telemetry watchdog behavior.
+- **32 merged PRs** across OpenClaw, openclaw/clawpatch, and steipete/CodexBar.
+- **28 merged OpenClaw ecosystem PRs** across `openclaw/openclaw` and `openclaw/clawpatch`.
+- Recent contributions landed in public developer-tooling repos including `openclaw/openclaw` with 380k+ stars, `steipete/CodexBar` with 15k+ stars, and `openclaw/clawpatch`.
+- **10 merged PRs in `openclaw/openclaw`**, including session resume reliability, Discord timeout handling, CLI numeric-option validation, SecretRef profile auth handling, Chrome MCP browser-session lifecycle fixes, plugin install compatibility, model-auth status, Memory Palace report-card navigation, and telemetry watchdog behavior.
 - **18 merged PRs in `openclaw/clawpatch`**, including validation command quoting, route mapping, Python runtime prompt metadata, provider diagnostics, review locking, validation, and evidence stability.
 - **4 merged PRs in `steipete/CodexBar`**, covering OpenAI Admin usage pagination, LLM Proxy reset-time handling, missing CLI guidance, and stale UI cleanup.
 - [`Claude Review for Codex`](https://github.com/rohitjavvadi/claude-review-for-codex): creator/maintainer of a Codex plugin for read-only Claude Code reviews and supervised disposable-worktree implementation.
@@ -20,7 +20,7 @@ I contribute to developer-tooling repos used by large builder communities:
 
 | Upstream | Scale | My merged work |
 | --- | --- | --- |
-| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | ![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/openclaw/openclaw?style=flat&label=forks) | 8 PRs: CLI validation, SecretRef auth, Chrome MCP lifecycle |
+| [`openclaw/openclaw`](https://github.com/openclaw/openclaw) | ![stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/openclaw/openclaw?style=flat&label=forks) | 10 PRs: session resume, Discord timeout, CLI validation |
 | [`openclaw/clawpatch`](https://github.com/openclaw/clawpatch) | ![stars](https://img.shields.io/github/stars/openclaw/clawpatch?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/openclaw/clawpatch?style=flat&label=forks) | 18 PRs: route mapping, validation safety, provider diagnostics |
 | [`steipete/CodexBar`](https://github.com/steipete/CodexBar) | ![stars](https://img.shields.io/github/stars/steipete/CodexBar?style=flat&label=stars) ![forks](https://img.shields.io/github/forks/steipete/CodexBar?style=flat&label=forks) | 4 PRs: OpenAI Admin pagination, CLI guidance, usage UI |
 
@@ -28,6 +28,8 @@ I contribute to developer-tooling repos used by large builder communities:
 
 ### `openclaw/openclaw`
 
+- [#94578](https://github.com/openclaw/openclaw/pull/94578): fixed recent session resume with long headers.
+- [#93329](https://github.com/openclaw/openclaw/pull/93329): allowed zero Discord timeout duration.
 - [#92490](https://github.com/openclaw/openclaw/pull/92490): validated CLI numeric options so invalid canvas inputs fail clearly before runtime work begins.
 - [#92483](https://github.com/openclaw/openclaw/pull/92483): validated CLI numeric option ranges for matrix commands.
 - [#90686](https://github.com/openclaw/openclaw/pull/90686): honored profile auth for SecretRef model entries.
